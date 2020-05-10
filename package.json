@@ -1,0 +1,31 @@
+{
+  "name": "hiragemu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^10.12.10",
+    "gloop": "git+https://github.com/monkeydioude/gloop.git"
+  },
+  "devDependencies": {
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.8.3",
+    "webpack": "^4",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monkeydioude/hiragemu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monkeydioude/hiragemu/issues"
+  },
+  "homepage": "https://github.com/monkeydioude/hiragemu#readme"
+}
