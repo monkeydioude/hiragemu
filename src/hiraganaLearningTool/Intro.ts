@@ -1,6 +1,6 @@
 import { Mini } from "gloop/Gloop";
 import ScenesHandler, { Scene } from "gloop/scene/Scenes";
-import { Fragment } from "../../../gloop/displayFragment/Fragment";
+import Fragment from "gloop/displayFragment/Fragment";
 
 export default function defineScene(gloop: Mini, nextSceneName: string): Scene {
     return (scenes: ScenesHandler): void => {

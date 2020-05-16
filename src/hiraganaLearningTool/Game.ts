@@ -3,7 +3,9 @@ import Click from 'gloop/eventFragment/Click'
 
 import Cells from 'gloop/displayFragment/Cells'
 import Event from 'gloop/Event'
-import ScenesHandler, { Scene } from 'gloop/scene/Scenes'
+import { Scene } from 'gloop/scene/Scenes'
+
+import SimpleButton from 'gloop/graphicInterface/buttons/Simple'
 
 let cellWidth: number
 let cellHeight: number
@@ -105,6 +107,10 @@ function buildRightInfoCells(kanaColumns: number, kanaLines: number) {
 }
 
 function drawMenu(T: number, g: Cells) {
+    let button = new SimpleButton("wesh alors", 3, 1)
+    
+    // button.font
+    button.display(2, 0, g)
     g.makeBorder(-2, 0, "#DC3023")
     g.writeText('ひ', -2, 0, 20, "Meiryo, Yu Gothic")
     g.makeBorder(-1, 0, "#DC3023")
