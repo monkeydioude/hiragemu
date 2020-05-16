@@ -11,5 +11,4 @@ document.addEventListener("DOMContentLoaded", () => {
     gloop.addScene("INTRO", Intro(gloop, "PLAY"))
     gloop.switchScene("INTRO")
     gloop.start()
-
 });

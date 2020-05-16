@@ -9,7 +9,7 @@ export default function defineScene(gloop: Mini, nextSceneName: string): Scene {
         gloop
         .newArea((canvasDimensions[0] / 2) - 100, (canvasDimensions[1] / 2) - 50, 50, 50)
         .display((T: number, f: Fragment) => {
-            f.writeText("Hiragemu", 0, 25, 45, "Meiryo, Yu Gothic")
+            f.writeText("Hiragemu", 0, 25, 45, "Meiryo, Yu Gothic", "red")
             f.writeText("ヒラゲム", 10, 75, 45, "Meiryo, Yu Gothic")
         })
 
